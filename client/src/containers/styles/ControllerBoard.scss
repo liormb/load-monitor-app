@@ -1,0 +1,16 @@
+:local {
+    .wrapper {
+        order: 1;
+
+        & > button {
+            margin-bottom: 10px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .title {
+        text-align: center;
+    }
+}

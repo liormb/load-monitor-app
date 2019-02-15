@@ -1,0 +1,19 @@
+:local {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        border: 1px solid #1c252b;
+        border-radius: 4px;
+        background-color: #3D4850;
+        box-shadow: 0 8px 6px -6px black;
+    }
+    .title {
+        margin-bottom: 25px;
+        font-size: 18px;
+        font-weight: 100;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: white;
+    }
+}

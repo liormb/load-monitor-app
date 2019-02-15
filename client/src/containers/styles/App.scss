@@ -1,0 +1,32 @@
+:local {
+    .wrapper {
+        padding: 30px;
+    }
+    .sections {
+        display: flex;
+        flex-direction: column;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    .section {
+        display: flex;
+        height: 400px;
+        margin-bottom: 10px;
+
+        & > section {
+            margin-right: 10px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    .topSection {
+        @extend .section;
+        order: 1;
+    }
+    .bottomSection {
+        @extend .section;
+        order: 2;
+    }
+}
