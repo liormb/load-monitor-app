@@ -12,3 +12,8 @@ If Chrome is not your default browser, open a new browser and go to: `localhost:
 ```
 yarn test
 ```
+
+### Todos
+- Add async tests
+- Using the slider to change interval, adjust the time displayed in the graph's label
+- Replace setInterval with setTimeout
